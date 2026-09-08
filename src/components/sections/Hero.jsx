@@ -17,17 +17,6 @@ const HERO_SLIDES = [
   },
   {
     id: 2,
-    image: '/images/sm-4.jpeg',
-    tag: 'BRIDAL ARCHITECTURE',
-    title: 'Presence that commands every',
-    highlight: 'heartbeat.',
-    subtitle: 'Couture Swirl • Crystal Chandelier • High Fashion',
-    location: 'Grand Ballroom, Patna',
-    optics: '24-70mm f/2.8 • Fuchsia Satin Science',
-    position: 'object-[center_32%]'
-  },
-  {
-    id: 3,
     image: '/images/sm-3.jpeg',
     tag: 'HIGHLAND SOLITUDE',
     title: 'Two souls written in mountain',
@@ -38,7 +27,7 @@ const HERO_SLIDES = [
     position: 'object-[center_32%]'
   },
   {
-    id: 4,
+    id: 3,
     image: '/images/sm-9.jpeg',
     tag: 'HEIRLOOM KUNDAN',
     title: 'Between the quiet anticipation and',
@@ -149,7 +138,7 @@ export default function Hero() {
               <img
                 src={item.image}
                 alt={`Samrat Studio — ${item.tag}`}
-                className={`w-full h-full object-cover ${item.position || 'object-[center_32%]'} filter brightness-[0.78] contrast-[1.08]`}
+                className={`w-full h-full object-cover ${item.position || 'object-[center_32%]'} filter brightness-[0.86] contrast-[1.06]`}
                 fetchPriority={index === 0 ? 'high' : 'auto'}
                 loading={index === 0 ? 'eager' : 'lazy'}
               />
@@ -164,7 +153,7 @@ export default function Hero() {
       {/* Cinematic Vignette & Darkroom Gradients */}
       <div className="absolute inset-0 hero-vignette pointer-events-none z-10" />
       <div className="absolute inset-0 hero-bottom-gradient pointer-events-none z-10" />
-      <div className="absolute inset-0 bg-grain opacity-20 pointer-events-none z-10" />
+      <div className="absolute inset-0 bg-grain opacity-10 pointer-events-none z-10" />
 
 
       {/* Hero Content Container */}
