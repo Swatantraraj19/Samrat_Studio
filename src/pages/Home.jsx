@@ -10,11 +10,10 @@ import CouplesSection from '../components/sections/CouplesSection';
 import CelebrationsSection from '../components/sections/CelebrationsSection';
 import BeyondWedding from '../components/sections/BeyondWedding';
 import ServicesIndex from '../components/sections/ServicesIndex';
-import AvailabilityMatrix from '../components/sections/AvailabilityMatrix';
 import Investment from '../components/sections/Investment';
 import TrustSection from '../components/sections/TrustSection';
 import AboutSection from '../components/sections/AboutSection';
-import DirectorsSignature from '../components/common/DirectorsSignature';
+
 import GalleryPreview from '../components/sections/GalleryPreview';
 import FinalCTA from '../components/sections/FinalCTA';
 
@@ -54,9 +53,6 @@ export default function Home() {
       {/* 09 — NUMBERED SERVICES INDEX */}
       <ServicesIndex />
 
-      {/* MASTERCLASS UPGRADE: SEASON AVAILABILITY MATRIX & DATE CHECK */}
-      <AvailabilityMatrix />
-
       {/* 10 — BESPOKE INVESTMENT */}
       <Investment />
 
@@ -66,8 +62,6 @@ export default function Home() {
       {/* 12 — BEHIND THE LENS / PHILOSOPHY */}
       <AboutSection />
 
-      {/* MASTERCLASS UPGRADE: DIRECTOR'S SIGNATURE & ARCHIVAL CERTIFICATE */}
-      <DirectorsSignature />
 
       {/* 13 — CURATED GALLERY PREVIEW & LIGHTBOX */}
       <GalleryPreview showAll={false} />

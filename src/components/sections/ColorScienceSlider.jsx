@@ -46,7 +46,7 @@ export default function ColorScienceSlider() {
 
         {/* Interactive Before / After Split Viewer */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-8">
+          <div className="lg:col-span-7">
             <div
               ref={containerRef}
               onMouseDown={() => {
@@ -65,14 +65,14 @@ export default function ColorScienceSlider() {
               }}
               onTouchEnd={() => setIsDragging(false)}
               onTouchMove={handleTouchMove}
-              className="relative w-full aspect-[4/3] sm:aspect-[16/10] overflow-hidden select-none cursor-ew-resize border border-studio-border/80 bg-studio-surface touch-none"
+              className="relative w-full aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/5] max-h-[560px] overflow-hidden select-none cursor-ew-resize border border-studio-border/80 bg-studio-surface touch-none"
               data-cursor="DRAG"
             >
               {/* After: Signature Grade Image */}
               <img
                 src="/images/sm-9.jpeg"
                 alt="Samrat Studio Calibrated Color Grade"
-                className="absolute inset-0 w-full h-full object-cover object-[center_top] filter contrast-[1.04] brightness-100"
+                className="absolute inset-0 w-full h-full object-cover object-[center_38%] filter contrast-[1.04] brightness-100"
               />
               <div className="absolute top-4 right-4 z-10 px-3 py-1 bg-studio-bg/85 backdrop-blur-md text-[10px] font-sans tracking-widest text-studio-gold uppercase border border-studio-gold/30">
                 Samrat Signature Grade
@@ -86,7 +86,7 @@ export default function ColorScienceSlider() {
                 <img
                   src="/images/sm-9.jpeg"
                   alt="Standard Raw Capture"
-                  className="absolute inset-0 w-full h-full object-cover object-[center_top] filter grayscale-[40%] contrast-[0.88] brightness-[0.92]"
+                  className="absolute inset-0 w-full h-full object-cover object-[center_38%] filter grayscale-[40%] contrast-[0.88] brightness-[0.92]"
                   style={{
                     width: containerRef.current ? `${containerRef.current.clientWidth}px` : '100%',
                     maxWidth: 'none'
@@ -114,7 +114,7 @@ export default function ColorScienceSlider() {
           </div>
 
           {/* Technical Color Highlights */}
-          <div className="lg:col-span-4 space-y-6">
+          <div className="lg:col-span-5 space-y-6">
             <h3 className="font-editorial text-2xl md:text-3xl text-studio-text tracking-wide">
               Documentary Truth Meets Editorial Polish
             </h3>

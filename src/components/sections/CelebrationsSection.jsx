@@ -29,7 +29,7 @@ export default function CelebrationsSection() {
               <img
                 src="/images/sm-10.jpeg"
                 alt="Joyous Haldi Celebration in Golden Urli"
-                className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                className="w-full h-full object-cover object-[center_top] transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"
               />
             </div>
@@ -72,7 +72,7 @@ export default function CelebrationsSection() {
                   <img
                     src="/images/sm-6.jpeg"
                     alt="Floral Arch Haldi Portrait"
-                    className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    className="w-full h-full object-cover object-[center_top] transition-transform duration-700 ease-out group-hover:scale-105"
                     loading="lazy"
                   />
                 </div>

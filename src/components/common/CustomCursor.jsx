@@ -56,15 +56,15 @@ export default function CustomCursor() {
       }}
     >
       <div
-        className={`-translate-x-1/2 -translate-y-1/2 rounded-full flex items-center justify-center transition-all duration-300 ${
+        className={`-translate-x-1/2 -translate-y-1/2 rounded-full flex items-center justify-center transition-all duration-300 shadow-md ${
           label
-            ? 'w-20 h-20 bg-studio-gold text-studio-bg font-sans text-[11px] font-semibold tracking-widest'
+            ? 'w-12 h-12 bg-studio-gold text-studio-bg font-sans text-[8.5px] font-bold tracking-wider text-center p-1 uppercase shadow-[0_4px_16px_rgba(199,164,106,0.35)]'
             : isHovered
-            ? 'w-10 h-10 border border-studio-gold/60 bg-studio-gold/10'
-            : 'w-4 h-4 bg-studio-text/40'
+            ? 'w-6 h-6 border border-studio-gold/70 bg-studio-gold/15'
+            : 'w-2.5 h-2.5 bg-studio-text/50'
         }`}
       >
-        {label && <span>{label}</span>}
+        {label && <span className="leading-none">{label}</span>}
       </div>
     </div>
   );

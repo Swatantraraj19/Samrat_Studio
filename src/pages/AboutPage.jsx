@@ -28,7 +28,7 @@ export default function AboutPage() {
             <img
               src="/images/sm-1.jpeg"
               alt="The Art of Emotional Storytelling — Samrat Studio"
-              className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+              className="w-full h-full object-cover object-[center_top] transition-transform duration-700 ease-out group-hover:scale-105"
               loading="lazy"
             />
             <div className="p-4 bg-studio-dark/95 border-t border-studio-border/60 text-xs font-sans text-studio-muted">

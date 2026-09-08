@@ -121,11 +121,11 @@ export default function StoryDetail() {
               className="group cursor-pointer bg-studio-surface border border-studio-border/60 overflow-hidden"
               data-cursor="EXPAND"
             >
-              <div className="w-full max-h-[85vh] overflow-hidden flex items-center justify-center bg-studio-bg">
+              <div className="w-full max-h-[85vh] overflow-hidden flex items-center justify-center bg-studio-dark/60">
                 <img
                   src={item.url}
                   alt={item.caption}
-                  className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-103"
+                  className="max-h-[85vh] w-auto max-w-full object-contain mx-auto transition-transform duration-1000 ease-out group-hover:scale-102"
                   loading="lazy"
                 />
               </div>

@@ -48,11 +48,11 @@ export default function BridalSection() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Low-Key Chiaroscuro Portrait (sm-7) */}
               <div className="relative group overflow-hidden bg-studio-surface border border-studio-border/60">
-                <div className="aspect-[4/3] sm:aspect-square overflow-hidden">
+                <div className="aspect-[4/3] sm:aspect-[4/5] overflow-hidden">
                   <img
                     src="/images/sm-7.jpeg"
                     alt="Low Key Chiaroscuro Bridal Portrait"
-                    className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    className="w-full h-full object-cover object-[center_top] transition-transform duration-700 ease-out group-hover:scale-105"
                     loading="lazy"
                   />
                 </div>
@@ -65,11 +65,11 @@ export default function BridalSection() {
 
               {/* Pastel Ruffle Engagement Gown (sm-8) */}
               <div className="relative group overflow-hidden bg-studio-surface border border-studio-border/60">
-                <div className="aspect-[4/3] sm:aspect-square overflow-hidden">
+                <div className="aspect-[4/3] sm:aspect-[4/5] overflow-hidden">
                   <img
                     src="/images/sm-8.jpeg"
                     alt="Pastel Blush Engagement Bride"
-                    className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    className="w-full h-full object-cover object-[center_top] transition-transform duration-700 ease-out group-hover:scale-105"
                     loading="lazy"
                   />
                 </div>

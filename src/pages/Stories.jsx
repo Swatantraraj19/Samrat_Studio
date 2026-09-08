@@ -36,13 +36,13 @@ export default function Stories() {
                 >
                   <Link
                     to={`/stories/${story.slug}`}
-                    className="group block relative overflow-hidden bg-studio-surface border border-studio-border/60 aspect-[4/3] sm:aspect-[16/10]"
+                    className="group block relative overflow-hidden bg-studio-surface border border-studio-border/60 aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/5] max-h-[560px]"
                     data-cursor="READ"
                   >
                     <img
                       src={story.coverImage}
                       alt={story.title}
-                      className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105 filter brightness-95"
+                      className="w-full h-full object-cover object-[center_top] transition-transform duration-1000 ease-out group-hover:scale-105 filter brightness-95"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-studio-bg/80 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />

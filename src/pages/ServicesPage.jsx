@@ -46,11 +46,11 @@ export default function ServicesPage() {
               key={svc.number}
               className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center border-b border-studio-border/50 pb-16"
             >
-              <div className="lg:col-span-5 relative group overflow-hidden bg-studio-surface border border-studio-border/60 aspect-[4/3] sm:aspect-[16/11]">
+              <div className="lg:col-span-5 relative group overflow-hidden bg-studio-surface border border-studio-border/60 aspect-[4/3] md:aspect-[3/4] lg:aspect-[4/5] max-h-[540px]">
                 <img
                   src={svc.image}
                   alt={svc.title}
-                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                  className="w-full h-full object-cover object-[center_top] transition-transform duration-700 ease-out group-hover:scale-105"
                   loading="lazy"
                 />
               </div>
